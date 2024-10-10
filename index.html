@@ -1,26 +1,86 @@
 <html>
   <head>
-    <title>My First Website</title>
-    <link rel="stylesheet" type="text/css" href="/Users/ryanminns/Documents/GitHub/Ryan-code90.github.io/Resources/CSS/index.css">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>My Cheat Sheet</title>
   </head>
-<header>
-  <h1 class="main-title">Ryan Philip Minns</h1>
-  <nav>
-    <ul class="list">
-      <li><a href="about me">About Me</a></li>
-      <li><a href="my progress">My Progress</a></li>
-      <li><a href="goals">Goals</a></li>
-    </ul>
-  </nav>
-</header>
+
+  <header>
+    <nav class="navigation">
+      <h2><a href="#html">HTML</a></h2>
+      <h2><a href="#css">CSS</a></h2>
+      <h2 id="main-title">My Cheat Sheet</h2>
+      <h2><a href="#java">Java Script</a></h2>
+      <h2><a href="#update here1">Update Here1</a></h2>
+    </nav>
+  </header>
+
 <body>
-  <section class="about me">
+  <h2 class="header">HTML</h2>
+  <section id="html">
     <article>
-      <h2>About me</h2>
-        <p>My name is Ryan Philip Minns and i am studying to be a fullstack developer</p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Table Elements</th>
+            <th scope="col">Function of Elements</th>
+            <th scope="col">Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">< table ></th>
+            <td scope="row">Creates a table</td>
+            <td scope="row">N/A</td>
+          </tr>
+          <tr>
+            <th scope="row">< thead ></th>
+            <td scope="row">Used to input data into the table head</td>
+            <td scope="row">Under < thead > use < tr > followed by < th scope="col" >< /th >. This will create a colomn heading.</td>
+          </tr>
+          <tr>
+            <th scope="row">< tbody ></th>
+            <td scope="row">The main part of a table, all data goes in here.</td>
+            <td scope="row">Where all the data of the table under headings lives</td>
+          </tr>
+          <tr>
+            <th scope="row">< tr ></th>
+            <td scope="row">tr stands for Table Row</td>
+            <td scope="row">Adds a row to a table and needs (td) to be added to enter data into the row</td>
+          </tr>
+          <tr>
+            <th scope="row">< td ></th>
+            <td scope="row">tr stands for Table Data</td>
+            <td scpoe="row">Adds data to a (tr) and is used with < td scope"row" ></td>
+          </tr>
+          <tr>
+            <th scope="row">colspan/<br>rowspan</th>
+            <td scope="row">Table data can span columns and rows using these attributes</td>
+          </tr>
+          <tr>
+            <th scope="row">< tfooter ></th>
+            <td scope="row">The foot of the table</td>
+            <td scope="row">Add any information to be presented at the bottom of the table such as a total</td>
+          </tr>
+        </tbody>
+      </table>
     </article>
   </section>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
 
+  <section id="css">
+    <article>
+      <h2 class="header">CSS</h2>
+      <h3 class="header1">CSS Elements (add a more specific title)</h3>
+      <p>Put different elements here for CSS and go in order from my notes, make a table for them to be explained in and for practice</p>
+    </article>
+  </section>
+
+  <section id="java script">
+    <article>
+      <h2 class="header">Java Script</h2>
+      <h3 class="header1">Update here with JS elements and information when it is learned. Good way to practice and keep up with what i am learning</h3>
+      <p>Use a table and update that table each time i learn something new </p>
+    </article>
+  </section>
+
+</body>
 </html>
