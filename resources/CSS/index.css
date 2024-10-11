@@ -29,15 +29,15 @@
 }
 
 table {
-    background-color: lightcyan;
     border: double black 3px;
 }
 
 th {
-    color: orangered;
+    color: black;
     border: double black;
 }
 
 td {
     border: double black;
+    color: black; 
 }
