@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-title {
+    color: orangered;
+    font-size: 40px;
+}
+
+.header {
+    color: darkblue;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.navigation {
+    a[href*="html"] {color: orange;}
+    a[href*="css"] {color: orange;}
+    a[href*="java"] {color: orange;}
+    a[href*="update here1"] {color: orange;}
+    text-align: center;
+    border: dashed lightblue 5px;
+}
+
+.body {
+    text-align: center;
+    margin: 0% auto;
+    border-style: dashed;
+}
+
+table {
+    background-color: lightcyan;
+    border: double black 3px;
+}
+
+th {
+    color: orangered;
+    border: double black;
+}
+
+td {
+    border: double black;
+}
